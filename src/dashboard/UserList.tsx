@@ -12,7 +12,6 @@ function UserList() {
 
 
     useEffect(() => {
-        console.log('useEffect called');
         console.log(userList);
         const getUserList = async () => {
             await getAllUsers().then((response) => {
