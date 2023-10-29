@@ -1,6 +1,4 @@
 import { GridColDef } from "@mui/x-data-grid/models/colDef/gridColDef";
-import { GridValueGetterParams } from "@mui/x-data-grid/models/params/gridCellParams";
-
 
 export const userTableColumns: GridColDef[] = [
     // { field: 'id', headerName: 'ID', width: 90 },
